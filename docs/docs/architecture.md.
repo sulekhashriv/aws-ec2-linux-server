@@ -1,0 +1,36 @@
+# AWS EC2 Architecture
+
+## Components
+
+1. AWS Cloud
+2. Amazon EC2
+3. Amazon Linux 2023
+4. Security Group
+5. SSH Connection
+6. Apache Web Server
+7. Public IPv4 Address
+
+## Architecture Flow
+
+User Browser
+     |
+     v
+Internet
+     |
+     v
+AWS EC2 Instance
+     |
+     v
+Amazon Linux 2023
+     |
+     v
+Apache Web Server
+     |
+     v
+Website
+
+## Security
+
+- SSH access restricted to my IP.
+- HTTP access allowed on port 80.
+- Private SSH key stored securely.
